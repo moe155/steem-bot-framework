@@ -5,7 +5,7 @@ Bot.create!([
 
 # Create Admin User
 @admin = User.create!(username: 'admin',
-                      email: 'admin@admin.com',
+                      email: 'reg@mauriceelsbernd.de',
                       admin: true,
                       password: 'welcomeadmin',
                       password_confirmation: 'welcomeadmin')
